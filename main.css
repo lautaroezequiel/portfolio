@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p {font-size: 1.3em;}
+
+button {
+    font-size: 1.6em;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 3px solid darkslateblue;
+    color: white;
+    background-color: darkslateblue;
+}
+
+button:hover {
+    background-color: rgb(47, 40, 92);
+}
+
+.container {
+    margin: auto;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header nav {
+    display: flex;
+    padding: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: darkslateblue;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+header a:hover {
+    color: rgb(71, 34, 92)
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    font-weight: bold;
+}
+
+#home span {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: darkslateblue;
+    font-size: 3em;
+}
+
+#home img {
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    border-end-end-radius: 200px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 100px;
+    border-end-start-radius: 50px;
+}
+
+#about img {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    margin-right: 100px;
+}
+
+#about .container {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#about .texto {
+    width: 500px;
+    padding: 50px;
+}
+
+#about h2 {
+    color: darkslateblue;
+}
+
+#about .texto p {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#proyect h2 {
+    color: darkslateblue;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#proyect h3 {
+    color: darkslateblue;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#proyect p {
+    padding-bottom: 10px;
+    width: 800px;
+}
+
+#proyect button {
+    margin-bottom: 20px;
+}
+
+#proyect .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#proyect .img-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 800px;
+}
+
+#proyect .img-dano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 800px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+
+#contact h2 {
+    color: darkslateblue;
+}
+
+#contact h3 {
+    color: darkslateblue;
+    flex-direction: row;
+    text-align: center;
+}
+
+#contact img {
+    height: 300px;
+    width: 300px;
+}
+
+#contact .img-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#contact .link-logo {
+    height: 283px;
+    width: 280px;
+    margin-bottom: 18px;
+}
+
+#footer {
+    background-color: darkslateblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#footer a:hover {
+    color: rgb(71, 34, 92);
+}
+
